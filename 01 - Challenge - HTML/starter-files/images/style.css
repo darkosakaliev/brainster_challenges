@@ -1,0 +1,186 @@
+body {
+    background-color: #638CAA;
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+i {
+    color: black;
+}
+
+.logo {
+    width: 30px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+.devicesPic {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin: 20px 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+}
+
+ul {
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+      display: inline;
+      padding: 10px;
+  }
+
+  .iconContainer {
+      display: block;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+  }
+
+  .icon {
+      display: inline-block;
+      width: 25%;
+      padding: 10px 0px;
+      margin: 0px;
+      background-color: #DBDBDB;
+      text-align: center;
+  }
+
+.iconContainer h1 {
+    color: black;
+    margin: 10px;
+}
+
+.clr-brwn {
+    background-color: #BCB9AA;
+}
+
+.clr-blu {
+    background-color: #9CE0D1;
+}
+
+.clr-grey {
+    background-color: #9AA7B8;
+}
+
+.clr-orange {
+    background-color: #F09E84;
+}
+
+.ipadPic {
+    display: inline-block;
+    width: 50%;
+    background-color: #B7CED6;
+    text-align: center;
+}
+
+.ipadPic img {
+    width: 190px;
+    padding: 20px;
+}
+
+.ipadDesc {
+    width: 50%;
+    float:right;
+    text-align: center;
+}
+
+.ipadDesc p {
+    padding: 25px 40px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.imacDesc {
+    width: 50%;
+    float:right;
+    text-align: center;
+}
+
+.imacDesc p {
+    padding: 32px 40px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.imacDesc.clr-orange, .ipadDesc.clr-grey, .iphoneDesc.clr-brwn {
+    height: 234px;
+}
+
+
+.iphoneDesc {
+    width: 50%;
+    float:left;
+    text-align: center;
+}
+
+.iphoneDesc p {
+    padding: 25px 50px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+a:hover {
+    color: #BCB9AA;
+}
+
+.infoContainer h2 {
+    text-align: center;
+    color: black;
+}
+
+.infoContainer p {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.teamsTab {
+    float:left;
+    width: 33.333%;
+    background-color: #9AA7B8;
+}
+
+.sallaryTab {
+    float:left;
+    width: 33.333%;
+    background-color: #BCB9AA;
+}
+
+.earningsTab {
+    float:right;
+    width: 33.333%;
+    background-color: #9CE0D1;
+}
+
+.smContainer {
+    text-align: center;
+}
+
+.smIcon {
+    color:white;
+    padding: 50px 70px;
+}
+
+.footerContainer {
+    text-align: center;
+    background-color: #514354;
+    padding: 15px;
+}
