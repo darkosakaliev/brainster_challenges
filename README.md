@@ -1,1 +1,1 @@
-Hi, I'm Darko Sakaliev and this repo is used to keep all the challenges i complete at Brainster!
+Created this challenge in 1366x768 resolution.
