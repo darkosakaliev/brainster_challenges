@@ -1,0 +1,34 @@
+@use "../abstracts/mixins" as mix;
+@use "../abstracts/variables" as var;
+@use "Sass:math";
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  input {
+    width: (var.$gutter-base * 15);
+    padding: math.div(var.$gutter-base, 3) math.div(var.$gutter-base, 2);
+    margin-right: math.div(var.$gutter-base, 2);
+  }
+
+  button {
+    border: none;
+  }
+
+  @include mix.tablet-styles {
+    flex-direction: column;
+
+    input {
+        margin-right: 0;
+        margin-bottom: math.div(var.$gutter-base, 2);
+    }
+  }
+
+  @include mix.mobile-l-styles {
+      input {
+          width: (var.$gutter-base * 9);
+      }
+  }
+}
