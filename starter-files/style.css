@@ -1,0 +1,22 @@
+body {
+    padding-top: 56px;
+  }
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/home.jpg');
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .color-red {
+    color: rgb(255, 0, 0);
+  }
+  
+  .bg-blue {
+    background-color: rgb(36, 0, 165);
+  }
+  
+  .customOffset {
+    padding-top: 56px;
+    margin-top: -56px;
+  }
