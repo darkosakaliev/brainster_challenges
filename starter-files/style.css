@@ -1,0 +1,86 @@
+.bl {
+    border-left: 2px solid white;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.vh-65 {
+    height: 65vh;
+}
+
+.slider-one {
+    background-image: url(./Images/image1.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.slider-two {
+    background-image: url(./Images/image2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.slider-three {
+    background-image: url(./Images/image3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: initial;
+}
+
+.img-overflow {
+    position: absolute;
+    bottom: -170px;
+}
+
+.pbg-one {
+    background-image: url(./Images/lights.jpg);
+}
+
+.pbg-two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/media.jpg);
+}
+
+.hovercsr {
+    cursor: pointer;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-grey {
+    background-color: #333333;
+}
+
+.bg-darkgrey {
+    background-color: #212121;
+}
+
+@media (max-width: 992px) {
+    .img-overflow {
+        bottom: -80px;
+    }
+}

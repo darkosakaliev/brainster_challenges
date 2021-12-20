@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge 08 - Bootstrap</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="challenge, predizvik, html, css, bootstrap" />
+        <meta name="description" content="Challenge # 8 for Brainster Full-Stack Academy." />
+        <meta name="author" content="Darko Sakaliev" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <!-- Latest compiled and minified Bootstrap 4.4.1 CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- Latest Font-Awesome CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-grey py-2">
+            <a class="navbar-text text-uppercase" href="./index.html">Glozzom</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <hr class="bg-black mt-2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active bl text-uppercase">
+                        <a class="nav-link small" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link small" href="./about-us.html">About us</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link small" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link small" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link small" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid px-0">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-interval="5000" data-ride="carousel">
+            <ol class="carousel-indicators d-none d-md-flex">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item slider-one vh-65 d-flex justify-content-center align-items-center active">
+                    <div class="container text-right text-white mx-5 d-none d-md-block">
+                        <h2>Heading One</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, explicabo. consectetur adipisicing elit. Nam, explicabo.</p>
+                        <a class="btn btn-danger" href="#">Sign Up Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item slider-two vh-65 d-flex justify-content-center align-items-center">
+                    <div class="container text-white text-center mx-5 d-none d-md-block">
+                        <h2>Heading Two</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, explicabo. consectetur adipisicing elit. Nam, explicabo.</p>
+                        <a class="btn btn-primary" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item slider-three vh-65 d-flex justify-content-center align-items-center">
+                    <div class="container text-white text-center mx-5 d-none d-md-block">
+                        <h2>Heading Three</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, explicabo. consectetur adipisicing elit. Nam, explicabo.</p>
+                        <a class="btn btn-primary" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+        <div class="container">
+           <div class="row py-4">
+              <div class="col-12 col-md-4 text-center">
+                <i class="fas fa-cog fa-2x"></i>
+                <p class="h4 text-capitalize pt-3">turning gears</p>
+                <p class="mb-md-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aliquam!</p>
+              </div>
+              <div class="col-12 col-md-4 text-center">
+                <i class="fas fa-cloud fa-2x"></i>
+                <p class="h4 text-capitalize pt-3">sending data</p>
+                <p class="mb-md-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aliquam!</p>
+              </div>
+              <div class="col-12 col-md-4 text-center">
+                <i class="fas fa-shopping-cart fa-2x"></i>
+                <p class="h4 text-capitalize pt-3">making money</p>
+                <p class="mb-md-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aliquam!</p>
+              </div>
+           </div>
+        </div>
+        <div class="container-fluid px-0 py-4 text-center text-white pbg-one parallax">
+            <h3>Are you ready to get started?</h3>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, mollitia.</p>
+        </div>
+        <div class="container">
+        <div class="row justify-content-center align-items-center py-2">
+                <div class="col-12 col-md-6">
+                    <p class="h3">Lorem Ipsum</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero reprehenderit cumque esse cum commodi perferendis itaque dolorem iste omnis ut voluptatum rerum, nemo eius consequatur voluptas iusto nostrum porro et reiciendis quo? Autem corporis nulla vitae accusamus doloremque amet nisi. Sint, fugit doloremque corporis dolores eveniet nesciunt dolorum distinctio quas.</p>
+                    <a class="btn btn-outline-danger" href="#">Learn More</a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="img-fluid" src="./Images/laptop.png" alt="">
+                </div>
+        </div>
+        </div>
+        <div class="container-fluid px-0 py-4 text-center text-white pbg-two parallax">
+            <i class="fas fa-play fa-2x hovercsr mb-3" data-toggle="modal" data-target="#ytvideo"></i>
+            <div class="modal fade" id="ytvideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="470" height="320"
+                            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="mb-0">See what we do</h3>
+        </div>
+        <div class="container py-4 text-center">
+            <h3>Photo gallery</h3>
+            <p>Check out our photos.</p>
+            <div class="row">
+                <div class="col-12 mt-3 mt-md-0 col-md-4">
+                    <img src="./Images/1.png" class="img-fluid hovercsr" data-toggle="modal" data-target="#pic-one">
+                    <div class="modal fade" id="pic-one" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img class="img-fluid" src="./Images/1.png" alt="First Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 mt-md-0 col-md-4">
+                    <img src="./Images/2.png" class="img-fluid hovercsr" data-toggle="modal" data-target="#pic-two">
+                    <div class="modal fade" id="pic-two" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img class="img-fluid" src="./Images/2.png" alt="Second Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 mt-md-0 col-md-4">
+                    <img src="./Images/3.png" class="img-fluid hovercsr" data-toggle="modal" data-target="#pic-three">
+                    <div class="modal fade" id="pic-three" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img class="img-fluid" src="./Images/3.png" alt="Second Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-md-4">
+                <div class="col-12 mt-4 mt-md-0 col-md-4">
+                    <img src="./Images/4.png" class="img-fluid hovercsr" data-toggle="modal" data-target="#pic-four">
+                    <div class="modal fade" id="pic-four" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img class="img-fluid" src="./Images/4.png" alt="Fourth Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 mt-md-0 col-md-4">
+                    <img src="./Images/5.png" class="img-fluid hovercsr" data-toggle="modal" data-target="#pic-five">
+                    <div class="modal fade" id="pic-five" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img class="img-fluid" src="./Images/5.png" alt="Fifth Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 mt-md-0 col-md-4">
+                    <img src="./Images/6.png" class="img-fluid hovercsr" data-toggle="modal" data-target="#pic-six">
+                    <div class="modal fade" id="pic-six" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img class="img-fluid" src="./Images/6.png" alt="Sixth Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-4 text-center text-white m-0 bg-grey">
+            <h3>Sign Up for our newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, aspernatur? Aliquam sit minima animi odit.</p>
+            <div class="container">
+            <form>
+                <div class="row justify-content-center">
+                    <div class="col-12 mb-3 mb-md-0 col-md-3">
+                    <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                    </div>
+                    <div class="col-12 col-md-3">
+                    <input type="text" class="form-control" id="email" placeholder="Enter E-mail">
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3 mt-md-0 ml-md-3">Submit</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <div class="container-fluid text-center text-white bg-black py-4">
+            <span>Copyright 2018 &copy; Glozzom</span>
+        </div>
+        
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        
+        <!-- Latest Compiled Bootstrap 4.4.1 JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
