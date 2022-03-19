@@ -1,12 +1,34 @@
 <?php
 
-require_once __DIR__ . "/classes/Furniture.php";
+class Product
+{
+    private $name;
+    private $price;
+    private $sellingByKg;
 
-$f1 = new Furniture(250, 40, 50);
+    public function __construct($name, $price, $sellingByKg)
+    {
+        $this->name = $name;
+        $this->price = $price;
+        $this->sellingByKg = $sellingByKg;
+    }
 
-$f1->area();
-$f1->volume();
-$f1->setIsForSeating(1);
-$f1->setIsForSleeping(0);
+    public function returnPrice()
+    {
+        if (!is_bool($this->sellingByKg)) {
+            echo "Error: sellingByKg not defined.";
+        } else if ($this->sellingByKg == true)
+            echo "$this->name costs $this->price$ per kg.<br/>";
+        else if ($this->sellingByKg == false) {
+            echo "$this->name costs $this->price$ per gunny sack.<br/>";
+        }
+    }
+}
 
-$f1->print();
+$p1 = new Product("orange", 35, true);
+$p2 = new Product("apple", 30, false);
+$p3 = new Product("rice", 35, 35);
+
+$p1->returnPrice();
+$p2->returnPrice();
+$p3->returnPrice();
