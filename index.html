@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Challenge 20 - JavaScript</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="Darko Sakaliev" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+    <div class="loading container">
+    <h1 class="display-3 text-center d-flex justify-content-center align-items-center vh-100" id="loader">
+      Loading Quiz...
+    </h1>
+    <div class="d-none jumbotron animate__animated animate__fadeIn" id="start-page">
+        <h1 class="display-4 text-center">Welcome to Brainster's Trivia!</h1>
+      <p class="lead text-center">Press the start button to begin.</p>
+      <hr class="my-4" />
+
+      <p class="lead text-center">
+        <a
+          class="btn btn-success btn-lg"
+          href="#0"
+          role="button"
+          id="start-button"
+        >
+          Start
+        </a>
+      </p>
+    </div>
+
+    <div class="d-none text-center" id="question-screen">
+      <div class="jumbotron text-center" id="jumbo-two">
+        <div id="second-page">
+          <h1 class="display-4">Good Luck!</h1>
+        </div>
+        <p class="lead">Click on the button to start over.</p>
+        <hr class="my-4" />
+
+        <p class="lead">
+          <a
+            class="btn btn-warning text-white btn-lg"
+            href=""
+            role="button"
+            id="start-button"
+          >
+            Start over
+          </a>
+        </p>
+      </div>
+
+      <div class="card text-center mx-5 animate__animated animate__fadeIn" id="anim">
+        <div class="card-header">
+          <h4 id="questions">Questions</h4>
+        </div>
+        <div
+          class="card-body d-flex justify-content-around"
+          id="buttons-container"
+        ></div>
+        <div class="card-footer text-muted text-left">
+          <p id="category">which:Category</p>
+        </div>
+      </div>
+      
+
+      <div class="bg-light mt-5 p-5" id="counter-all">
+        <h2>
+          Completed:
+          <span id="counter-answer">0</span>
+          / 20
+        </h2>
+      </div>
+    </div>
+
+    <div class="d-none jumbotron text-center animate__animated animate__fadeIn" id="last-page">
+      <div id="something">
+        <h1 class="display-4">Lets see your score!</h1>
+      </div>
+      <p class="lead">Press the start button to start again.</p>
+      <hr class="my-4" />
+
+      <p class="lead">
+        <a
+          class="btn btn-danger btn-lg"
+          href=""
+          role="button"
+          id="start-button"
+        >
+          Try Again
+        </a>
+      </p>
+
+      <div class="bg-light mt-5 p-5" id="counter-correct">
+        <h2>
+          Total correct answers:
+          <span id="correct-answer">0</span>
+          /20
+        </h2>
+      </div>
+    </div>
+  </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
