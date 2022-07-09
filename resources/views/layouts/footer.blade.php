@@ -1,0 +1,8 @@
+
+<div class="bg-light bg-gradient text-center p-4">
+    <p class="m-0">Made with love by Brainster - <a href="https://www.facebook.com/brainster.co/" target=”_blank”>Say Hi!</a> - Terms</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
